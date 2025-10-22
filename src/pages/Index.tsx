@@ -121,6 +121,24 @@ export default function Index() {
       </nav>
 
       <main className="container mx-auto max-w-6xl px-4 py-12">
+        <section className="mb-16 text-center">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-4xl font-bold mb-6">Добро пожаловать в мир путешествий по России!</h2>
+            <p className="text-lg text-muted-foreground mb-4 leading-relaxed">
+              Мы рады приветствовать вас на нашем портале туристических маршрутов. Здесь вас ждут 
+              незабываемые путешествия по самым красивым уголкам нашей необъятной Родины.
+            </p>
+            <p className="text-lg text-muted-foreground leading-relaxed">
+              От величественных храмов Золотого кольца до кристально чистых вод Байкала — 
+              каждый тур тщательно продуман, чтобы подарить вам яркие впечатления и тёплые воспоминания.
+            </p>
+            <div className="mt-8 inline-flex items-center gap-2 bg-primary/10 text-primary px-6 py-3 rounded-full">
+              <Icon name="Sparkles" size={20} />
+              <span className="font-medium">Начните своё приключение прямо сейчас</span>
+            </div>
+          </div>
+        </section>
+
         <section className="mb-12">
           <h2 className="text-3xl font-bold mb-2">Популярные туры</h2>
           <p className="text-muted-foreground mb-8">Выберите свое следующее приключение</p>
